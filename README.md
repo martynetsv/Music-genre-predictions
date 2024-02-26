@@ -11,7 +11,7 @@ CatBoost
 
 В процессе предобработки данных уделил особое внимание текстовым признакам, что привело к улучшению метрик модели
 
-Для обучения выбрал LogisticRegression, DecisionTreeClassifier, RandomForestClassifier и CatBoostClassifier. 
+Для обучения использовал LogisticRegression, DecisionTreeClassifier, RandomForestClassifier и CatBoostClassifier. 
 
 По результатам обучения и сравнения метрик остановился на модели CatBoost (мера F1 0.4989 на тестовой выборке)
 
